@@ -1,0 +1,209 @@
+@import 'vars';
+@import 'mixins';
+
+.skill {
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(1, 500px);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blok-right {
+    margin-left: 46px;
+    margin-top: 1482px;
+    font-size: 135px;
+
+    &__violet {
+        height: 3027px;
+    }
+}
+
+.span__1250 {
+    display: none;
+}
+
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 700px);
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    &__img {
+        display: grid;
+        grid-template-columns: repeat(1, 500px);
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    &__figma {
+
+        border-radius: 27px;
+        padding: 7px 25px;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 10px #ffffff;
+        font-size: 20px;
+        font-weight: 400;
+        cursor: pointer;
+        background-color: $colorGreen;
+        border: none;
+        margin-left: 115px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        &__text {
+            color: $colorSite;
+            cursor: pointer;
+        }
+    }
+
+
+
+}
+
+div.arrowup {
+    position: relative;
+    height: 442px;
+}
+
+div.arrowup img {
+    position: absolute;
+    right: 71px;
+    bottom: 8px;
+    width: 77px;
+}
+
+div.arrowup img:hover {
+    transform: translateY(-25px);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(img_portfolio/Love_is/стрелкавлево.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(img_portfolio/Love_is/стрелкавправо.svg);
+}
+
+.carousel-indicators {
+    bottom: -35px;
+}
+
+
+@media (max-width: 1600px) {
+    .portfolio {
+        grid-template-columns: repeat(2, 628px)
+    }
+
+    .blok-right {
+        margin-left: -147px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .portfolio {
+        grid-template-columns: repeat(2, 524px);
+
+        &__img {
+            grid-template-columns: repeat(1, 435px);
+        }
+
+        &__figma {
+            font-size: 19px;
+            margin-left: 54px;
+        }
+    }
+
+    .skill {
+        font-size: 16px;
+    }
+
+    div.arrowup {
+        height: 374px;
+    }
+
+
+    .blok-right {
+        margin-left: -176px;
+        margin-top: 1320px;
+        font-size: 120px;
+    }
+
+    .blok-right__violet {
+        height: 2687px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .portfolio {
+        grid-template-columns: repeat(1, 780px);
+
+        &__img {
+            grid-template-columns: repeat(1, 630px);
+        }
+    }
+
+    .skill {
+        font-size: 18px;
+        margin-left: 32px;
+        margin-top: 18px;
+    }
+
+    div.arrowup {
+        height: 59px;
+    }
+
+    div.arrowup img {
+        width: 46px;
+    }
+
+    .blok-right {
+        margin-left: -2276px;
+        margin-top: 3079px;
+        font-size: 108px;
+
+        &__violet {
+            height: 6210px;
+        }
+
+        .span__1250 {
+            display: inline;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .portfolio {
+        grid-template-columns: repeat(1, 387px);
+
+        &__img {
+            grid-template-columns: repeat(1, 364px);
+        }
+
+        &__figma {
+            font-size: 14px;
+            margin-left: 38px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+
+    .skill {
+        font-size: 12px;
+        margin-left: 0;
+    }
+        div.arrowup {
+        height: 75px;
+    }
+    div.arrowup img {
+    right: 6px;
+    bottom: 3px;
+}}

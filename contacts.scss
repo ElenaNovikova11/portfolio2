@@ -1,0 +1,121 @@
+@import 'vars';
+@import 'mixins';
+
+.span__color {
+    font-family: 'Benzin-Bold';
+
+}
+
+.contacts {
+    font-size: 24px;
+
+    &__block {
+        background-image: url(img_contacts/block_contact.svg);
+        color: $colorWhite;
+        width: 834px;
+        height: 616px;
+        margin-top: 55px;
+        margin-left: 301px;
+        margin-bottom: 55px;
+        padding-left: 128px;
+        padding-top: 145px;
+
+        &__header {
+            font-size: 24px;
+        }
+    }
+
+    &__padding {
+        padding-bottom: 27px;
+
+    }
+}
+
+.blok-right__violet {
+    margin-left: 1447px;
+    height: 706px;
+    margin-top: -715px;
+}
+
+.blok-right {
+    font-size: 95px;
+    margin-left: 1152px;
+    margin-top: -411px;
+}
+
+@media (max-width: 1600px) {
+    .blok-right__violet {
+        margin-left: 1307px;
+    }
+
+    .blok-right {
+        margin-left: 1014px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .contacts__block {
+        margin-left: 194px;
+    }
+
+    .blok-right__violet {
+        margin-left: 1107px;
+    }
+
+    .blok-right {
+        margin-left: 814px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .contacts__block {
+        background-image: url(img_contacts/block_contact1250.svg);
+        margin-left: 109px;
+        width: 647px;
+        height: 476px;
+        font-size: 20px;
+        padding-left: 107px;
+        padding-top: 129px;
+
+        &__header {
+            font-size: 17px;
+        }
+    }
+
+    .span__color__violet {
+        font-size: 18px;
+    }
+
+    .blok-right__violet {
+        margin-left: 787px;
+        height: 575px;
+        margin-top: -580px;
+    }
+
+    .blok-right {
+        margin-left: 544px;
+        font-size: 77px;
+        margin-top: -333px;
+    }
+}
+
+@media (max-width: 800px) {
+    .contacts__block {
+        background-image: url(img_contacts/block_contact800.svg);
+        margin-left: -7px;
+        width: 400px;
+        height: 294px;
+        font-size: 15px;
+        padding-left: 35px;
+        padding-top: 69px;
+    
+    &__header {
+        font-size: 14px;
+    }}
+        .span__color__violet {
+        font-size: 14px;
+    }
+.contacts__padding {
+    padding-bottom: 11px;
+}
+}

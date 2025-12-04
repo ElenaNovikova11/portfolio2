@@ -1,0 +1,40 @@
+@mixin span__color {
+    color: $colorGreen;
+
+}
+
+@mixin span__color__violet {
+    color: $colorViolet;
+    font-family: "Benzin-bold";
+
+
+}
+
+@mixin span__color__black {
+    color: $colorBlack;
+
+}
+
+@mixin box__green {
+    border-radius: $borderRadius;
+    background: $colorGreen;
+    width: 414px;
+    height: 274px;
+
+}
+
+@mixin box__grey {
+    border-radius: $borderRadius;
+    background: $colorSite;
+    width: 551px;
+    height: 274px;
+}
+
+@mixin box__left {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 37px;
+
+}
+
