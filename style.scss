@@ -843,13 +843,35 @@ a {
 
 @media (max-width: 800px) {
     .center {
-        padding-left: calc(50% - 210px);
-        padding-right: calc(50% - 210px);
+        padding-left: calc(50% - 200px);
+        padding-right: calc(50% - 200px);
     }
 
     .center930 {
-        padding-left: calc(50% - 185px);
-        padding-right: calc(50% - 185px);
+        padding-left: calc(50% - 175px);
+        padding-right: calc(50% - 175px);
+    }
+
+    .user__img__400 {
+        display: none;
+    }
+
+    .user__img__300 {
+
+        display: block;
+        position: absolute;
+        max-width: 100%;
+        width: 200px;
+        margin-left: -263px;
+        margin-top: 156px;
+
+    }
+
+    .skill {
+        margin-top: 66px;
+        &__800{
+            margin-top: 0px;
+        }
     }
 
     .dropdown {
