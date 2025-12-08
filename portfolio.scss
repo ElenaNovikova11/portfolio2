@@ -179,9 +179,29 @@ div.arrowup img:hover {
     }
 }
 
+@media (max-width: 840px) {
+    .portfolio {
+        grid-template-columns: repeat(1, 662px);
+
+        &__img {
+            grid-template-columns: repeat(1, 570px);
+        }
+    }
+        .blok-right__violet {
+        height: 5709px;
+                margin-left: 699px;
+    }
+        .blok-right {
+        margin-left: -2114px;
+        margin-top: 2823px;
+        font-size: 99px;
+    }
+}
+
 @media (max-width: 800px) {
     .portfolio {
         grid-template-columns: repeat(1, 387px);
+        margin-top: 0px;
 
         &__img {
             grid-template-columns: repeat(1, 364px);
@@ -200,10 +220,13 @@ div.arrowup img:hover {
         font-size: 12px;
         margin-left: 0;
     }
-        div.arrowup {
+
+    div.arrowup {
         height: 75px;
     }
+
     div.arrowup img {
-    right: 6px;
-    bottom: 3px;
-}}
+        right: 6px;
+        bottom: 3px;
+    }
+}

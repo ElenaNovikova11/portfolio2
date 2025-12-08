@@ -99,6 +99,32 @@
     }
 }
 
+
+@media (max-width: 840px) {
+    .contacts__block {
+        background-image: url(img_contacts/block_contact840.svg);
+      margin-left: 107px;
+        width: 543px;
+        height: 399px;
+        font-size: 20px;
+        padding-left: 62px;
+        padding-top: 99px;
+
+    }
+        .blok-right__violet {
+        margin-left: 695px;
+        height: 498px;
+        margin-top: -501px;
+    }
+    .blok-right {
+        margin-left: 487px;
+        font-size: 67px;
+        margin-top: -286px;
+    }
+   
+}
+
+
 @media (max-width: 800px) {
     .contacts__block {
         background-image: url(img_contacts/block_contact800.svg);
@@ -108,14 +134,17 @@
         font-size: 15px;
         padding-left: 35px;
         padding-top: 69px;
-    
-    &__header {
-        font-size: 14px;
-    }}
-        .span__color__violet {
+
+        &__header {
+            font-size: 14px;
+        }
+    }
+
+    .span__color__violet {
         font-size: 14px;
     }
-.contacts__padding {
-    padding-bottom: 11px;
-}
+
+    .contacts__padding {
+        padding-bottom: 11px;
+    }
 }

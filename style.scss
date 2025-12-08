@@ -211,6 +211,15 @@ a {
         &__500 {
             display: none;
         }
+
+        &__400 {
+            display: none;
+        }
+
+        &__300 {
+            display: none;
+        }
+
     }
 
 }
@@ -737,6 +746,101 @@ a {
     }
 }
 
+@media (max-width: 840px) {
+    .center {
+        padding-left: calc(50% - 410px);
+        padding-right: calc(50% - 406px);
+    }
+
+    .center930 {
+        padding-left: calc(50% - 396px);
+        padding-right: calc(50% - 396px);
+    }
+
+    .blok-right__violet {
+        height: 1224px;
+        width: 7px;
+        margin-left: 718px;
+        margin-top: 11px;
+    }
+
+    .blok-right {
+        font-size: 89px;
+        margin-left: 150px;
+        margin-top: 577px;
+    }
+
+    .user {
+        display: flex;
+        flex-direction: row;
+        gap: 64px;
+        flex-wrap: nowrap;
+        position: relative;
+
+        &__info {
+
+            &__head {
+                width: 350px;
+                font-size: 12px;
+                padding: 13px 32px;
+                margin-top: 10px;
+            }
+
+            &__text {
+                width: 350px;
+                font-size: 11px;
+                padding: 7px 24px;
+                margin-top: 80px;
+                margin-left: 10px;
+            }
+        }
+
+        &__img {
+
+
+            &__500 {
+                display: none;
+            }
+
+            &__400 {
+                display: block;
+                position: absolute;
+                max-width: 100%;
+                width: 400px;
+                margin-left: -114px;
+                margin-top: -14px;
+            }
+        }
+
+    }
+
+    .skill {
+        margin-top: 16px;
+
+        &__site__window {
+            grid-template-columns: repeat(2, 305px);
+            margin-bottom: 49px;
+            gap: 14px;
+
+
+        }
+    }
+
+    .program {
+        grid-template-columns: repeat(3, 200px);
+        gap: 12px;
+        margin-bottom: 69px;
+
+    }
+
+    .motivation {
+        grid-template-columns: repeat(2, 304px);
+        gap: 13px;
+    }
+
+
+}
+
 @media (max-width: 800px) {
     .center {
         padding-left: calc(50% - 210px);
@@ -877,17 +981,20 @@ a {
             padding: 13px 25px;
             font-size: 10px;
         }
+
         &__text {
-        width: 293px;
-        padding-top: 10px;
-        padding-left: 5px;
-        font-size: 9px;
+            width: 293px;
+            padding-top: 10px;
+            padding-left: 5px;
+            font-size: 9px;
+        }
     }
-    }
+
     .footer__text {
-    margin-top: 4px;
-    margin-bottom: 14px;
-    color: rgb(127, 42, 255);
-    font-size: 12px;
-    margin-left: 14px;
-}}
+        margin-top: 4px;
+        margin-bottom: 14px;
+        color: rgb(127, 42, 255);
+        font-size: 12px;
+        margin-left: 14px;
+    }
+}

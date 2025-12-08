@@ -149,9 +149,27 @@ div.arrowup img:hover {
     display: inline;
   }
 }
+@media (max-width: 840px) {
+  .portfolio {
+    grid-template-columns: repeat(1, 662px);
+  }
+  .portfolio__img {
+    grid-template-columns: repeat(1, 570px);
+  }
+  .blok-right__violet {
+    height: 5709px;
+    margin-left: 699px;
+  }
+  .blok-right {
+    margin-left: -2114px;
+    margin-top: 2823px;
+    font-size: 99px;
+  }
+}
 @media (max-width: 800px) {
   .portfolio {
     grid-template-columns: repeat(1, 387px);
+    margin-top: 0px;
   }
   .portfolio__img {
     grid-template-columns: repeat(1, 364px);
