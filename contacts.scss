@@ -1,9 +1,18 @@
 @import 'vars';
 @import 'mixins';
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .span__color {
     font-family: 'Benzin-Bold';
 
+}
+
+.head {
+    position: relative;
 }
 
 .contacts {
@@ -14,11 +23,11 @@
         color: $colorWhite;
         width: 834px;
         height: 616px;
-        margin-top: 55px;
         margin-left: 301px;
         margin-bottom: 55px;
         padding-left: 128px;
         padding-top: 145px;
+        margin-top: 51px;
 
         &__header {
             font-size: 24px;

@@ -1,5 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .span__color {
   font-family: "Benzin-Bold";
+}
+
+.head {
+  position: relative;
 }
 
 .contacts {
@@ -10,11 +19,11 @@
   color: rgb(255, 255, 255);
   width: 834px;
   height: 616px;
-  margin-top: 55px;
   margin-left: 301px;
   margin-bottom: 55px;
   padding-left: 128px;
   padding-top: 145px;
+  margin-top: 51px;
 }
 .contacts__block__header {
   font-size: 24px;
