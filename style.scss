@@ -1049,17 +1049,17 @@ a {
         &__info {
 
             &__head {
-                width: 350px;
+                width: 325px;
                 font-size: 12px;
                 padding: 13px 32px;
-                margin-top: 10px;
+                margin-top: 4px;
             }
 
             &__text {
-                width: 350px;
+                width: 325px;
                 font-size: 11px;
                 padding: 7px 24px;
-                margin-top: 80px;
+                margin-top: 92px;
                 margin-left: 10px;
             }
         }
@@ -1107,7 +1107,7 @@ a {
     }
 
     .skill {
-        margin-top: 66px;
+        margin-top: 20px;
 
         &__800 {
             margin-top: 0px;
@@ -1204,14 +1204,14 @@ a {
 
     .program {
         grid-template-columns: repeat(2, 170px);
-        gap: 13px;
+        gap: 8px;
         margin-bottom: 21px;
         margin-top: 21px;
 
         &__btn {
-            margin-left: 223px;
+            margin-left: 203px;
             padding: 10px 25px;
-            margin-top: 228px;
+            margin-top: 232px;
             font-size: 14px;
             transform: skew(0deg, -5deg);
         }
