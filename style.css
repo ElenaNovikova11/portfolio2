@@ -629,7 +629,6 @@ a {
   .head {
     padding-left: 40px;
     padding-right: 40px;
-    margin-top: 24px;
   }
   .head__nav {
     font-size: 15px;
@@ -794,8 +793,8 @@ a {
     padding-right: calc(50% - 200px);
   }
   .center930 {
-    padding-left: calc(50% - 175px);
-    padding-right: calc(50% - 175px);
+    padding-left: calc(50% - 170px);
+    padding-right: calc(50% - 170px);
   }
   .skill {
     margin-top: 66px;
@@ -809,7 +808,9 @@ a {
     margin-bottom: 10px;
   }
   .dropdown__menu {
-    background-color: rgb(12, 53, 75);
+    background: linear-gradient(rgb(127, 42, 255), rgba(98, 98, 98, 0));
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
     border: none;
     color: rgb(12, 53, 75);
   }
@@ -836,7 +837,7 @@ a {
   .head {
     padding-left: 40px;
     padding-right: 40px;
-    margin-top: 24px;
+    position: relative;
   }
   .head__nav {
     display: none;
@@ -859,7 +860,7 @@ a {
     width: 100%;
   }
   .skill__site__window {
-    grid-template-columns: repeat(1, 316px);
+    grid-template-columns: repeat(1, 310px);
     margin-bottom: 49px;
     gap: 20px;
   }
@@ -870,7 +871,7 @@ a {
     padding: 9px 36px;
   }
   .program {
-    grid-template-columns: repeat(2, 177px);
+    grid-template-columns: repeat(2, 170px);
     gap: 13px;
     margin-bottom: 21px;
     margin-top: 21px;
