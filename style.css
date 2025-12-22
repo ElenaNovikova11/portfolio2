@@ -270,14 +270,14 @@ a {
 .program__btn {
   position: absolute;
   background-color: rgb(127, 42, 255);
-  border-radius: 27px;
-  padding: 18px 77px;
+  border-radius: 25px;
+  padding: 18px 60px;
   color: #0C354B;
   transition: all 0.3s ease;
   box-shadow: 0 0 10px #ffffff;
   transform: skew(0deg, 5deg);
   margin-top: 211px;
-  margin-left: 183px;
+  margin-left: 290px;
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
@@ -502,13 +502,13 @@ a {
     padding-right: calc(50% - 720px);
   }
   .blok-right {
-    margin-left: 589px;
-    font-size: 114px;
-    margin-top: 745px;
+    margin-left: 550px;
+    font-size: 120px;
+    margin-top: 855px;
   }
   .blok-right__violet {
     margin-left: 1309px;
-    height: 1570px;
+    height: 1650px;
   }
   .program {
     margin-bottom: 80px;
@@ -548,38 +548,25 @@ a {
     gap: 64px;
     flex-wrap: nowrap;
     position: relative;
-    /*   &__img {
-        &__800 {
-            display: none;
-        }
-
-        &__670 {
-            display: block;
-            position: absolute;
-            max-width: 100%;
-            width: 670px;
-            margin-left: -109px;
-            margin-top: -23px;
-        }
-    } */
   }
   .user__info__head {
     width: 500px;
     font-size: 18px;
+    margin-top: 6px;
   }
   .user__info__text {
     width: 500px;
     font-size: 15px;
-    margin-top: 153px;
+    margin-top: 123px;
   }
   .blok-right {
-    margin-left: 438px;
-    font-size: 108px;
-    margin-top: 707px;
+    margin-left: 407px;
+    font-size: 113px;
+    margin-top: 811px;
   }
   .blok-right__violet {
     margin-left: 1116px;
-    height: 1488px;
+    height: 1562px;
   }
   .skill {
     font-size: 18px;
@@ -601,7 +588,7 @@ a {
     gap: 14px;
   }
   .program__btn {
-    margin-left: 51px;
+    margin-left: 114px;
     padding: 16px 55px;
     margin-top: 202px;
   }
@@ -712,13 +699,13 @@ a {
   .blok-right {
     font-size: 94px;
     margin-left: 194px;
-    margin-top: 609px;
+    margin-top: 667px;
   }
   .blok-right__violet {
-    height: 1301px;
+    height: 1385px;
     width: 7px;
     margin-left: 789px;
-    margin-top: 11px;
+    margin-top: 69px;
   }
 }
 @media (max-width: 840px) {
