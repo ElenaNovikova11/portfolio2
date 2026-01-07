@@ -193,6 +193,12 @@ div.arrowup img:hover {
   .portfolio__img {
     grid-template-columns: repeat(1, 350px);
   }
+  .portfolio__figma {
+    font-size: 16px;
+    margin-left: 15px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+  }
   .skill {
     grid-template-columns: repeat(1, 380px);
     font-size: 16px;
@@ -219,6 +225,12 @@ div.arrowup img:hover {
   }
   .portfolio__img {
     grid-template-columns: repeat(1, 320px);
+  }
+  .portfolio__figma {
+    font-size: 15px;
+    margin-left: 15px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
   }
   .skill {
     grid-template-columns: repeat(1, 350px);
@@ -256,6 +268,12 @@ div.arrowup img:hover {
   .portfolio__img {
     grid-template-columns: repeat(1, 240px);
   }
+  .portfolio__figma {
+    font-size: 12px;
+    margin-left: 15px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+  }
   .portfolio__blocks {
     gap: 0px;
   }
@@ -274,6 +292,10 @@ div.arrowup img:hover {
   }
 }
 @media (max-width: 800px) {
+  .head {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -283,13 +305,19 @@ div.arrowup img:hover {
   .portfolio__img {
     grid-template-columns: repeat(1, 290px);
   }
+  .portfolio__figma {
+    font-size: 12px;
+    margin-left: 15px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+  }
   .portfolio__blocks {
     gap: 0px;
   }
   .skill {
     grid-template-columns: repeat(1, 300px);
     font-size: 12px;
-    padding: 9px 0px 9px 0px;
+    padding: 11px 0px 11px 0px;
     margin-left: 0px;
   }
   .work {
@@ -301,7 +329,7 @@ div.arrowup img:hover {
     font-size: 8px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 120px;
+    width: 150px;
   }
   div.arrowup {
     height: 75px;
