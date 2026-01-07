@@ -312,7 +312,7 @@ a {
         position: absolute;
         background-color: $colorViolet;
         border-radius: 25px;
-    padding: 18px 60px;
+        padding: 18px 60px;
         color: #0C354B;
         transition: all 0.3s ease;
         box-shadow: 0 0 10px #ffffff;
@@ -661,7 +661,7 @@ a {
 
 
     .blok-right {
-  margin-left: 550px;
+        margin-left: 550px;
         font-size: 120px;
         margin-top: 855px;
 
@@ -948,7 +948,7 @@ a {
 
     .blok-right {
         font-size: 89px;
-      margin-left: 152px;
+        margin-left: 152px;
         margin-top: 633px;
     }
 
@@ -1065,8 +1065,8 @@ a {
 
 
     .head {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 15px;
+        padding-right: 20px;
         position: relative;
 
         &__nav {

@@ -757,8 +757,8 @@ a {
     color: rgb(88, 231, 0);
   }
   .head {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 15px;
+    padding-right: 20px;
     position: relative;
   }
   .head__nav {
