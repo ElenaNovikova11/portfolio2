@@ -358,13 +358,12 @@ div.arrowup img:hover {
 
 @media (max-width: 800px) {
    .portfolio {
-        grid-template-columns: 150px 650px;
-        gap: 22px;
-        margin-top: 0px;
-        margin-left: 30px;
+           display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
 
         &__img {
-            grid-template-columns: repeat(1, 480px);
+            grid-template-columns: repeat(1, 300px);
         }
 
         &__blocks {
@@ -373,14 +372,17 @@ div.arrowup img:hover {
     }
 
     .skill {
-        grid-template-columns: repeat(1, 500px);
-        font-size: 16px;
-        padding: 11px;
+        grid-template-columns: repeat(1, 320px);
+        font-size: 13px;
+        padding: 8px;
         margin-left: 0px;
     }
 
     .work {
-        gap: 10px;
+       display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 
         &__btn {
             font-size: 8px;

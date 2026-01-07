@@ -275,25 +275,26 @@ div.arrowup img:hover {
 }
 @media (max-width: 800px) {
   .portfolio {
-    grid-template-columns: 150px 650px;
-    gap: 22px;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 0px;
-    margin-left: 30px;
   }
   .portfolio__img {
-    grid-template-columns: repeat(1, 480px);
+    grid-template-columns: repeat(1, 300px);
   }
   .portfolio__blocks {
     gap: 0px;
   }
   .skill {
-    grid-template-columns: repeat(1, 500px);
-    font-size: 16px;
-    padding: 11px;
+    grid-template-columns: repeat(1, 320px);
+    font-size: 13px;
+    padding: 8px;
     margin-left: 0px;
   }
   .work {
-    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .work__btn {
     font-size: 8px;
