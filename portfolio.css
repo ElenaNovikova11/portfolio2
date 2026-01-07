@@ -278,17 +278,18 @@ div.arrowup img:hover {
     display: flex;
     flex-wrap: wrap;
     margin-top: 0px;
+    margin-left: 15px;
   }
   .portfolio__img {
-    grid-template-columns: repeat(1, 300px);
+    grid-template-columns: repeat(1, 290px);
   }
   .portfolio__blocks {
     gap: 0px;
   }
   .skill {
-    grid-template-columns: repeat(1, 320px);
-    font-size: 13px;
-    padding: 8px;
+    grid-template-columns: repeat(1, 300px);
+    font-size: 12px;
+    padding: 9px 0px 9px 0px;
     margin-left: 0px;
   }
   .work {
@@ -298,8 +299,9 @@ div.arrowup img:hover {
   }
   .work__btn {
     font-size: 8px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
   }
   div.arrowup {
     height: 75px;

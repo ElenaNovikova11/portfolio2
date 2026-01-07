@@ -357,13 +357,14 @@ div.arrowup img:hover {
 }
 
 @media (max-width: 800px) {
-   .portfolio {
-           display: flex;
-    flex-wrap: wrap;
-    margin-top: 0px;
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-left: 15px;
 
         &__img {
-            grid-template-columns: repeat(1, 300px);
+            grid-template-columns: repeat(1, 290px);
         }
 
         &__blocks {
@@ -372,23 +373,23 @@ div.arrowup img:hover {
     }
 
     .skill {
-        grid-template-columns: repeat(1, 320px);
-        font-size: 13px;
-        padding: 8px;
+        grid-template-columns: repeat(1, 300px);
+        font-size: 12px;
+        padding: 9px 0px 9px 0px;
         margin-left: 0px;
     }
 
     .work {
-       display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
 
 
         &__btn {
             font-size: 8px;
-            padding-left: 15px;
-            padding-right: 15px;
-
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 150px;
         }
     }
 
