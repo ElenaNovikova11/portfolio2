@@ -5,30 +5,50 @@
 
 .blok-right__about {
   font-family: "Benzin-Bold";
-  font-size: 132px;
+  font-size: 136px;
   font-weight: 400;
   line-height: 100%;
   text-align: left;
   text-transform: uppercase;
   transform: rotate(90deg);
   position: absolute;
-  margin-left: 125px;
-  margin-top: 659px;
+  margin-left: 312px;
+  margin-top: 1289px;
   z-index: -1;
 }
-.blok-right__about__violet {
+.blok-right__violet {
   width: 11px;
-  height: 1540px;
+  height: 2541px;
   background-color: rgb(127, 42, 255);
   position: absolute;
-  margin-left: 819px;
-  margin-top: -41px;
+  margin-left: 1500px;
+  margin-top: 86px;
   z-index: -1;
   text-align: left;
 }
 
+.margin70 {
+  margin-left: 70px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  flex-wrap: nowrap;
+  position: relative;
+  margin-left: 70px;
+}
 .user__imgblock {
   width: 100%;
+}
+.user__my {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin-left: 106px;
+  margin-top: 85px;
+  width: 450px;
 }
 .user__img2 {
   width: 100%;
@@ -38,15 +58,13 @@
   transition: all 0.5s ease;
   box-shadow: 0 0 20px #ffffff;
 }
-.user__aboutme {
+.user__text {
   background-image: url(img_about_me/Rectangle1.svg);
   width: 506px;
   height: 282px;
   margin-left: 143px;
   margin-top: 160px;
   margin-bottom: 40px;
-}
-.user__aboutme__text {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 400;
@@ -62,7 +80,6 @@
   grid-template-columns: 370px 350px 720px;
   gap: 20px;
   justify-content: start;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 .user__fron__right {
@@ -107,6 +124,10 @@
   font-size: 20px;
 }
 
+.skill {
+  width: 83%;
+}
+
 .padding {
   padding-left: 35px;
 }
@@ -114,8 +135,9 @@
 .skill__site__training {
   display: grid;
   grid-template-columns: repeat(1, 1000px);
-  gap: 40px;
-  justify-content: center;
+  gap: 35px;
+  /*  justify-content: center; */
+  margin-left: 250px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -135,4 +157,128 @@
   transition: all 0.5s ease;
   /*     border: 2px solid rgb(20, 244, 27); */
   box-shadow: 0 0 20px #ffffff;
+}
+
+@media (max-width: 1600px) {
+  .center930 {
+    padding-left: calc(50% - 760px);
+    padding-right: calc(50% - 760px);
+  }
+  .user__text {
+    margin-left: 50px;
+  }
+  .user__fron {
+    grid-template-columns: 300px 300px 620px;
+    margin-bottom: 40px;
+  }
+  .user__fron__right {
+    grid-template-columns: 270px 270px;
+  }
+  .user__fron__center {
+    font-size: 16px;
+  }
+  .skill {
+    width: 83%;
+  }
+  .skill__site__training {
+    margin-left: 150px;
+  }
+  .blok-right__violet {
+    margin-left: 1268px;
+    height: 2502px;
+  }
+  .blok-right__about {
+    margin-left: 94px;
+    font-size: 134px;
+    margin-top: 1272px;
+  }
+}
+@media (max-width: 1400px) {
+  .user {
+    gap: 0px;
+  }
+  .user__my {
+    width: 400px;
+  }
+  .user__fron {
+    grid-template-columns: 270px 270px 550px;
+    gap: 7px;
+  }
+  .user__fron__left {
+    padding-bottom: 15px;
+    font-size: 14px;
+  }
+  .user__fron__right {
+    grid-template-columns: 235px 235px;
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+  .user__fron__center {
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+  .skill {
+    width: 84%;
+  }
+  .skill__site__training {
+    margin-left: 60px;
+  }
+  .blok-right__violet {
+    margin-left: 1118px;
+    height: 2393px;
+  }
+  .blok-right__about {
+    margin-left: 1px;
+    font-size: 128px;
+    margin-top: 1217px;
+  }
+}
+@media (max-width: 1250px) {
+  .user__text {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 125px;
+  }
+  .user__my {
+    width: 365px;
+    margin-left: 60px;
+    margin-top: 67px;
+  }
+  .margin70 {
+    margin-left: 40px;
+  }
+  .user__fron {
+    grid-template-columns: 250px 250px 500px;
+    gap: 7px;
+    margin-bottom: 15px;
+  }
+  .user__fron__right {
+    grid-template-columns: 200px 200px;
+    font-size: 12px;
+  }
+  .user__fron__center {
+    font-size: 12px;
+  }
+  .user__fron__left {
+    font-size: 12px;
+  }
+  .skill__site__training {
+    display: grid;
+    grid-template-columns: repeat(1, 900px);
+  }
+  .certificate {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 20px;
+  }
+  .blok-right__violet {
+    margin-left: 996px;
+    height: 2066px;
+    margin-top: 68px;
+  }
+  .blok-right__about {
+    margin-left: 38px;
+    font-size: 110px;
+    margin-top: 1042px;
+  }
 }/*# sourceMappingURL=style_about_me.css.map */

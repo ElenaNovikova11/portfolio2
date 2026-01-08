@@ -118,15 +118,15 @@
   }
   .contacts__block {
     background-image: url(img_contacts/block_contact800.svg);
-    margin-left: 13px;
+    margin-left: 12px;
     width: 321px;
     height: 235px;
     font-size: 13px;
-    padding-left: 13px;
-    padding-top: 42px;
+    padding-left: 23px;
+    padding-top: 29px;
   }
   .contacts__block__header {
-    font-size: 12px;
+    font-size: 14px;
   }
   .span__color__violet {
     font-size: 12px;
