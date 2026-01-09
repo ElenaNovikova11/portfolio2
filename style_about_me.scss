@@ -375,7 +375,9 @@
       display: none;
     }
   }
-
+.user{
+  margin-left: 40px;
+}
   .user__text {
     background-image: url(img_about_me/Rectangle2.svg);
     width: 317px;
@@ -408,11 +410,11 @@
   .user__fron {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 320px;
   }
 
   .margin70 {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .user__fron__right {
@@ -424,11 +426,11 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 300px;
+    width: 290px;
   }
       .user__fron__skill1 {
       
-        width: 350px;
+        width: 320px;
         padding-left: 15px;
         font-size: 16px;
     }
