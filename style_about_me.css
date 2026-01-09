@@ -300,4 +300,61 @@
   .certificate {
     grid-template-columns: repeat(3, 270px);
   }
+}
+@media (max-width: 800px) {
+  .blok-right__a {
+    display: none;
+  }
+  .blok-right__r {
+    display: none;
+  }
+  .user__text {
+    background-image: url(img_about_me/Rectangle2.svg);
+    width: 317px;
+    height: 195px;
+    margin-left: -24px;
+    margin-top: 152px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding-top: 45px;
+    padding-left: 28px;
+    line-height: 139%;
+  }
+  .user__my {
+    margin-left: -213px;
+    margin-top: 0px;
+    width: 376px;
+    z-index: -1;
+  }
+  .span__color__violet {
+    font-size: 15px;
+  }
+  .span__color__violet__sm {
+    font-size: 10px;
+  }
+  .user__fron {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+  .margin70 {
+    margin-left: 20px;
+  }
+  .user__fron__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .certificate {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+  }
+  .user__fron__skill1 {
+    width: 350px;
+    padding-left: 15px;
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=style_about_me.css.map */
