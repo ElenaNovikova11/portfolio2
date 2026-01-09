@@ -6,7 +6,7 @@
 .gridCenter {
   display: grid;
   grid-template-columns: 1550px 11px 100px;
-  gap: 30px;
+  gap: 10px;
   align-items: start;
 }
 
@@ -183,8 +183,8 @@
   }
   .gridCenter {
     display: grid;
-    grid-template-columns: 1320px 11px 100px;
-    gap: 30px;
+    grid-template-columns: 1330px 11px 100px;
+    gap: 10px;
     align-items: start;
   }
   .user__text {
@@ -203,9 +203,8 @@
 }
 @media (max-width: 1400px) {
   .gridCenter {
-    display: grid;
-    grid-template-columns: 1125px 11px 100px;
-    gap: 20px;
+    grid-template-columns: 1136px 11px 100px;
+    gap: 4px;
     align-items: start;
   }
   .blok-right__a {
@@ -244,8 +243,8 @@
 }
 @media (max-width: 1250px) {
   .gridCenter {
-    grid-template-columns: 1035px 11px 100px;
-    gap: 7px;
+    grid-template-columns: 1043px 11px 100px;
+    gap: 0px;
     align-items: start;
   }
   .blok-right__a {
