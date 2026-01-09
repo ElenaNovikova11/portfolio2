@@ -248,7 +248,7 @@
     margin-left: 40px;
   }
   .user__fron {
-    grid-template-columns: 250px 250px 500px;
+    grid-template-columns: 250px 250px 480px;
     gap: 7px;
     margin-bottom: 15px;
   }
@@ -272,12 +272,12 @@
     gap: 20px;
   }
   .blok-right__violet {
-    margin-left: 996px;
+    margin-left: 970px;
     height: 2066px;
     margin-top: 68px;
   }
   .blok-right__about {
-    margin-left: 38px;
+    margin-left: 11px;
     font-size: 110px;
     margin-top: 1042px;
   }
