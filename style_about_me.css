@@ -201,6 +201,9 @@
   }
 }
 @media (max-width: 1400px) {
+  .margin70 {
+    margin-left: 50px;
+  }
   .gridCenter {
     grid-template-columns: 1140px 11px 80px;
     gap: 0px;
