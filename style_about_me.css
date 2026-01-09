@@ -3,7 +3,20 @@
   padding: 0;
 }
 
-.blok-right__about {
+.gridCenter {
+  display: grid;
+  grid-template-columns: 1550px 11px 100px;
+  gap: 30px;
+  align-items: start;
+}
+
+.blok-right__r {
+  width: 11px;
+  height: 2541px;
+  background-color: rgb(127, 42, 255);
+  margin-top: 86px;
+}
+.blok-right__a {
   font-family: "Benzin-Bold";
   font-size: 136px;
   font-weight: 400;
@@ -11,20 +24,7 @@
   text-align: left;
   text-transform: uppercase;
   transform: rotate(90deg);
-  position: absolute;
-  margin-left: 312px;
-  margin-top: 1289px;
-  z-index: -1;
-}
-.blok-right__violet {
-  width: 11px;
-  height: 2541px;
-  background-color: rgb(127, 42, 255);
-  position: absolute;
-  margin-left: 1500px;
-  margin-top: 86px;
-  z-index: -1;
-  text-align: left;
+  margin-top: 65px;
 }
 
 .margin70 {
@@ -119,27 +119,44 @@
   padding: 25px;
   border: 2px solid rgb(32, 16, 28);
 }
+.user__fron__bottom {
+  display: grid;
+  justify-items: center;
+  grid-column: span 3;
+  background-color: #ff3c3c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 145%;
+  text-align: center;
+  background-color: rgb(127, 42, 255);
+  border-radius: 25px;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-family: "Benzin-Bold";
+  margin-top: 15px;
+}
+.user__fron__skill1 {
+  grid-column: span 3;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 145%;
+  background-color: rgb(12, 53, 75);
+  border-radius: 25px;
+  padding: 15px;
+  border: 2px solid rgb(88, 231, 0);
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  width: 1000px;
+  place-self: center;
+  padding-left: 30px;
+}
 
 .span__size {
   font-size: 20px;
 }
 
-.skill {
-  width: 83%;
-}
-
 .padding {
   padding-left: 35px;
-}
-
-.skill__site__training {
-  display: grid;
-  grid-template-columns: repeat(1, 1000px);
-  gap: 35px;
-  /*  justify-content: center; */
-  margin-left: 250px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .certificate {
@@ -164,6 +181,12 @@
     padding-left: calc(50% - 760px);
     padding-right: calc(50% - 760px);
   }
+  .gridCenter {
+    display: grid;
+    grid-template-columns: 1320px 11px 100px;
+    gap: 30px;
+    align-items: start;
+  }
   .user__text {
     margin-left: 50px;
   }
@@ -177,65 +200,62 @@
   .user__fron__center {
     font-size: 16px;
   }
-  .skill {
-    width: 83%;
-  }
-  .skill__site__training {
-    margin-left: 150px;
-  }
-  .blok-right__violet {
-    margin-left: 1268px;
-    height: 2502px;
-  }
-  .blok-right__about {
-    margin-left: 94px;
-    font-size: 134px;
-    margin-top: 1272px;
-    background-color: #f83cff;
-  }
 }
 @media (max-width: 1400px) {
+  .gridCenter {
+    display: grid;
+    grid-template-columns: 1125px 11px 100px;
+    gap: 20px;
+    align-items: start;
+  }
+  .blok-right__a {
+    font-size: 122px;
+    margin-top: 72px;
+  }
+  .blok-right__r {
+    height: 2278px;
+  }
   .user {
     gap: 0px;
   }
   .user__my {
-    width: 400px;
+    width: 389px;
+    margin-left: 47px;
   }
   .user__fron {
-    grid-template-columns: 270px 270px 550px;
+    grid-template-columns: 260px 260px 530px;
     gap: 7px;
   }
   .user__fron__left {
     padding-bottom: 15px;
     font-size: 14px;
-  }
-  .user__fron__right {
-    grid-template-columns: 235px 235px;
-    font-size: 14px;
-    padding-bottom: 15px;
+    padding: 20px 20px 10px 20px;
   }
   .user__fron__center {
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 15px;
+    padding: 20px 20px 10px 5px;
   }
-  .skill {
-    width: 84%;
-  }
-  .skill__site__training {
-    margin-left: 60px;
-  }
-  .blok-right__violet {
-    margin-left: 1118px;
-    height: 2393px;
-  }
-  .blok-right__about {
-    margin-left: 1px;
-    font-size: 128px;
-    margin-top: 1217px;
-    background-color: #ff3c3c;
+  .user__fron__right {
+    grid-template-columns: 225px 225px;
+    font-size: 13px;
+    padding: 20px 20px 10px 20px;
   }
 }
 @media (max-width: 1250px) {
+  .gridCenter {
+    grid-template-columns: 1035px 11px 100px;
+    gap: 7px;
+    align-items: start;
+  }
+  .blok-right__a {
+    font-size: 111px;
+    margin-top: 60px;
+  }
+  .blok-right__r {
+    height: 2041px;
+    margin-top: 69px;
+  }
   .user__text {
     margin-left: 0px;
     margin-bottom: 10px;
@@ -264,24 +284,9 @@
   .user__fron__left {
     font-size: 12px;
   }
-  .skill__site__training {
-    display: grid;
-    grid-template-columns: repeat(1, 900px);
-  }
   .certificate {
     display: grid;
     grid-template-columns: repeat(3, 250px);
     gap: 20px;
-  }
-  .blok-right__violet {
-    margin-left: 970px;
-    height: 2066px;
-    margin-top: 68px;
-  }
-  .blok-right__about {
-    margin-left: 11px;
-    font-size: 110px;
-    margin-top: 1042px;
-    background-color: #ffffff;
   }
 }/*# sourceMappingURL=style_about_me.css.map */
