@@ -289,19 +289,19 @@
 
 @media (max-width: 1250px) {
   .gridCenter {
-    grid-template-columns: (1043px 11px 80px);
+    grid-template-columns: (1030px 11px 80px);
     gap: 0px;
     align-items: start;
   }
 
   .blok-right {
     &__a {
-      font-size: 121px;
-      margin-top: 46px;
+      font-size: 132px;
+      margin-top: 40px;
     }
 
     &__r {
-      height: 2227px;
+      height: 2430px;
       margin-top: 69px;
     }
   }
@@ -316,9 +316,9 @@
     }
 
     &__my {
-      width: 365px;
       margin-left: 60px;
       margin-top: 67px;
+      width: 345px;
     }
 
     &__fron {
@@ -335,6 +335,7 @@
 
       &__center {
         font-size: 17px;
+        border: 2px solid $colorGreen;
       }
 
       &__left {
@@ -343,6 +344,12 @@
 
       &__skill1 {
         font-size: 20px;
+        grid-column: span 2;
+        width: 900px;
+      }
+
+      &__bottom {
+        grid-column: span 2;
       }
     }
   }
@@ -351,5 +358,9 @@
     font-size: 17px;
   }
 
+  .certificate {
 
+    grid-template-columns: repeat(3, 270px);
+
+  }
 }
