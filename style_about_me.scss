@@ -374,66 +374,76 @@
       display: none;
     }
   }
-.user{
-  margin-left: 40px;
-}
-  .user__text {
-    background-image: url(img_about_me/Rectangle2.svg);
-    width: 317px;
-    height: 195px;
-    margin-left: -24px;
-    margin-top: 152px;
-    margin-bottom: 25px;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    padding-top: 45px;
-    padding-left: 28px;
-    line-height: 139%;
 
-  }
+  .user {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 40px;
+    width: 310px;
 
-  .user__my {
-    margin-left: -213px;
-    margin-top: 0px;
-    width: 376px;
-    z-index: -1;
+    &__text {
+      background-image: url(img_about_me/Rectangle2.svg);
+      width: 317px;
+      height: 195px;
+      margin-left: -24px;
+      margin-top: 0px;
+      margin-bottom: 25px;
+      color: rgb(255, 255, 255);
+      font-size: 14px;
+      padding-top: 45px;
+      padding-left: 28px;
+      line-height: 139%;
+    }
+
+    &__my {
+           margin-left: 79px;
+        margin-top: 1px;
+        margin-bottom: -36px;
+        width: 175px;
+        z-index: -1;
+    }
+
+    &__fron {
+      display: flex;
+      flex-direction: column;
+      width: 320px;
+
+      &__skill1 {
+        width: 320px;
+        padding-left: 15px;
+        font-size: 16px;
+      }
+
+      &__right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+
   }
 
   .span__color__violet {
     font-size: 15px;
-    &__sm{
-       font-size: 10px;
-    }
-  }
 
-  .user__fron {
-    display: flex;
-    flex-direction: column;
-    width: 320px;
+    &__sm {
+      font-size: 10px;
+    }
   }
 
   .margin70 {
     margin-left: 10px;
+    width: 350px;
   }
 
-  .user__fron__right {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .certificate{
+  .certificate {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 290px;
   }
-      .user__fron__skill1 {
-      
-        width: 320px;
-        padding-left: 15px;
-        font-size: 16px;
-    }
-    .bold{
-      font-size: 17px;
-    }
+
+  .bold {
+    font-size: 17px;
+  }
 }
