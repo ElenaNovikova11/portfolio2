@@ -303,6 +303,7 @@
 @media (max-width: 800px) {
   .gridCenter {
     display: flex;
+    flex-direction: column;
   }
   .blok-right__a {
     display: none;
