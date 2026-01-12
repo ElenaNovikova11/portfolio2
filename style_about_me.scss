@@ -365,6 +365,9 @@
 }
 
 @media (max-width: 800px) {
+  .gridCenter{
+    display: flex;
+  }
   .blok-right {
     &__a {
       display: none;
