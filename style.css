@@ -9,7 +9,7 @@
   src: url("Benzin-Bold.woff2") format("woff2");
 }
 body {
-  font-family: Cygre;
+  font-family: "Cygre", sans-serif;
   font-style: normal;
   background-color: rgb(1, 27, 40);
 }
@@ -39,7 +39,7 @@ a {
 
 .span__color__violet {
   color: rgb(127, 42, 255);
-  font-family: "Benzin-bold";
+  font-family: "Benzin-Bold";
 }
 
 .span__color__black {

@@ -14,6 +14,13 @@
 .head {
     position: relative;
 }
+.footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: auto;
+    justify-content: flex-end;
+    }
 
 .contacts {
     font-size: 24px;
